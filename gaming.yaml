@@ -75,16 +75,16 @@ proxies:
       headers:
         Host: sg1-ctb-ws.xvless.xyz
     udp: true
-- name: Dede
+- name: www.zoom.us
     server: www.zoom.us
     port: 443
     type: trojan
-    password: 16e2b5b0-3cda-11ed-b834-225401db9d57
+    password: 781bfc20-3ce1-11ed-b333-225401db9d57
     skip-cert-verify: true
-    sni: sg-ovh.tjvpn.org
+    sni: id-ikd.tjvpn.org
     network: ws
     ws-opts:
       path: /fastssh
       headers:
-        Host: sg-ovh.tjvpn.org
+        Host: id-ikd.tjvpn.org
     udp: true
