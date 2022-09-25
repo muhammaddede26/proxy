@@ -75,16 +75,18 @@ proxies:
       headers:
         Host: sg1-ctb-ws.xvless.xyz
     udp: true
-- name: www.zoom.us
-    server: www.zoom.us
+- name: sshocean-desesarinto
+    server: sg2-ctb-ws.xvless.xyz
     port: 443
-    type: trojan
-    password: 781bfc20-3ce1-11ed-b333-225401db9d57
+    type: vless
+    uuid: daa6d43c-9de1-4ede-91d6-0bb153bfb139
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id-ikd.tjvpn.org
+    servername: www.zoom.us
     network: ws
     ws-opts:
-      path: /fastssh
+      path: /websocket
       headers:
-        Host: id-ikd.tjvpn.org
+        Host: sg2-ctb-ws.xvless.xyz
     udp: true
