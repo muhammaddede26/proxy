@@ -15,35 +15,63 @@ proxies:
       headers:
         Host: speed.cak-don.my.id
     udp: true
-  - name: dedes
-    server: cdn.onlymega.com
+  - name: sshocean-bodin2aa
+    server: api.qiscus.com
     port: 443
-    type: vmess
-    uuid: e95ad133-57c7-4e55-a17d-fda931bf1c15
-    alterId: 0
+    type: vless
+    uuid: 1025ef8d-382c-4abc-bd8e-d1a5a507aea7
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: speed.cak-don.my.id
+    servername: sg2-ws.xvless.xyz
     network: ws
     ws-opts:
-      path: /netzvmess
+      path: /websocket
       headers:
-        Host: speed.cak-don.my.id
+        Host: sg2-ws.xvless.xyz
     udp: true
-  - name: dedes
+  - name: sshocean-satu2aas
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: d6cfe995-6111-42ef-8fc5-c00c3543a286
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgovh1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sgovh1-ws.xvless.xyz
+    udp: true
+  - name: sshocean-siji2
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: ec20f0da-8f03-4a7d-aa55-46f18afa06cd
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2-ctb-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg2-ctb-ws.xvless.xyz
+    udp: true
+  - name: sshocean-siji
     server: api.fastworldpay.com
     port: 443
-    type: vmess
-    uuid: e95ad133-57c7-4e55-a17d-fda931bf1c15
-    alterId: 0
+    type: vless
+    uuid: d41cdd21-4065-4f47-a530-c843ee0f1649
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: speed.cak-don.my.id
+    servername: sg1-ctb-ws.xvless.xyz
     network: ws
     ws-opts:
-      path: /netzvmess
+      path: /websocket
       headers:
-        Host: speed.cak-don.my.id
+        Host: sg1-ctb-ws.xvless.xyz
     udp: true
