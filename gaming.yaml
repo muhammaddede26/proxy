@@ -83,7 +83,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: www.zoom.us
+    servername: api.qiscus.com
     network: ws
     ws-opts:
       path: /websocket
