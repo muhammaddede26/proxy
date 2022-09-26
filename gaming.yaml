@@ -90,3 +90,18 @@ proxies:
       headers:
         Host: id1-ws.xvless.xyz
     udp: true
+  - name: sshocean-muhammaddede
+    server: sg1-ctb-ws.xvless.xyz
+    port: 443
+    type: vless
+    uuid: 00d43a7b-4f2f-43c4-9f48-cbd6008d5d23
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.fastworldpay.com
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg1-ctb-ws.xvless.xyz
+    udp: true
