@@ -79,3 +79,18 @@ proxies:
       headers:
         Host: speed.cak-don.my.id
     udp: true
+  - name: sshocean-muhammaddede
+    server: mobilemaps-pagoogleapis.com
+    port: 443
+    type: vless
+    uuid: 412b96c6-252b-4b45-94f4-5732bcda8949
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg1-ctb-ws.xvless.xyz
+    udp: true
