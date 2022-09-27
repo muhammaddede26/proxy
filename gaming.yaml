@@ -120,3 +120,19 @@ proxies:
       headers:
         Host: id3-ws.xvless.xyz
     udp: true
+  - name: dedes
+    server: speed.cak-don.my.id
+    port: 443
+    type: vmess
+    uuid: e95ad133-57c7-4e55-a17d-fda931bf1c15
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: speed.cak-don.my.id
+    network: ws
+    ws-opts:
+      path: /netzvmess
+      headers:
+        Host: api.fastworldpay.com
+    udp: true
