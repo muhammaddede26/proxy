@@ -16,7 +16,7 @@ proxies:
         Host: speed.cak-don.my.id
     udp: true
   - name: dedes
-    server: cdn.onlymega.com
+    server: mobilemaps-pa,googleapis.com
     port: 443
     type: vmess
     uuid: e95ad133-57c7-4e55-a17d-fda931bf1c15
@@ -32,7 +32,7 @@ proxies:
         Host: speed.cak-don.my.id
     udp: true
   - name: dedes
-    server: api.fastworldpay.com
+    server: mobilemaps-pa,googleapis.com
     port: 443
     type: vmess
     uuid: e95ad133-57c7-4e55-a17d-fda931bf1c15
@@ -48,7 +48,7 @@ proxies:
         Host: speed.cak-don.my.id
     udp: true
   - name: dedes
-    server: www.zoom.us
+    server: mobilemaps-pa,googleapis.com
     port: 443
     type: vmess
     uuid: e95ad133-57c7-4e55-a17d-fda931bf1c15
