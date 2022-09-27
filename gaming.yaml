@@ -46,3 +46,17 @@ htt
       headers:
         Host: id1-ws.xvless.xyz
     udp: true
+  - name: biz2tr.jagoan.vip
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: trial-Muhammad
+    skip-cert-verify: true
+    sni: biz2tr.jagoan.vip
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: biz2tr.jagoan.vip
+    udp: true
+
