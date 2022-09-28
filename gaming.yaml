@@ -73,3 +73,16 @@ htt
       headers:
         Host: ust2.sshocean.net
     udp: true
+  - name: id5tr.jagoan.vip
+    server: id5tr.jagoan.vip
+    port: 443
+    type: trojan
+    password: trial-Dedesari
+    skip-cert-verify: true
+    sni: api.qiscus.com
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id5tr.jagoan.vip
+    udp: true
