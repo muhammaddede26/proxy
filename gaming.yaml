@@ -1,6 +1,6 @@
 proxies:
   - name: dedes
-    server: api.qiscus.com
+    server: speed.cak-don.my.id
     port: 443
     type: vmess
     uuid: e95ad133-57c7-4e55-a17d-fda931bf1c15
@@ -13,102 +13,5 @@ proxies:
     ws-opts:
       path: /netzvmess
       headers:
-        Host: speed.cak-don.my.id
-    udp: true
-  - name: sshocean-muhammaddede
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 412b96c6-252b-4b45-94f4-5732bcda8949
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1-ctb-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg1-ctb-ws.xvless.xyz
-    udp: true
-htt
-  - name: sshocean-muhammaddede
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 58e8b54e-3990-462a-853f-2b15b8988ce5
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id1-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: id1-ws.xvless.xyz
-    udp: true
-  - name: biz2tr.jagoan.vip
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: trial-Muhammad
-    skip-cert-verify: true
-    sni: biz2tr.jagoan.vip
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: biz2tr.jagoan.vip
-    udp: true
-
-  - name: sshocean-muhammaddede_trojan-go_ws
-    server: ust2.sshocean.net
-    port: 443
-    type: trojan
-    password: 360019c6-5d49-4590-9dd3-bbd33d79c519
-    skip-cert-verify: true
-    sni: api.qiscus.com
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: ust2.sshocean.net
-    udp: true
-  - name: id5tr.jagoan.vip
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: trial-Dedesari
-    skip-cert-verify: true
-    sni: id5tr.jagoan.vip
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id5tr.jagoan.vip
-    udp: true
-  - name: api.qiscus.com
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: c6084670-3f32-11ed-b339-225401db9d57
-    skip-cert-verify: true
-    sni: sghe.tjvpn.org
-    network: ws
-    ws-opts:
-      path: /fastssh
-      headers:
-        Host: sghe.tjvpn.org
-    udp: true
-  - name: sshocean-hdhdhdjjs_trojan-go_ws
-    server: ust2.sshocean.net
-    port: 443
-    type: trojan
-    password: 96cc97f7-187d-48ce-992a-f462e372d829
-    skip-cert-verify: true
-    sni: api.qiscus.com
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: ust2.sshocean.net
+        Host: api.qiscus.com
     udp: true
