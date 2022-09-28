@@ -1,30 +1,17 @@
+
 proxies:
-  - name: dedes
+  - name: sshocean-vhbnnnnbbb
     server: api.qiscus.com
     port: 443
-    type: vmess
-    uuid: e95ad133-57c7-4e55-a17d-fda931bf1c15
-    alterId: 0
+    type: vless
+    uuid: 6d220048-4e1e-4d94-aaef-b272508920f9
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: speed.cak-don.my.id
+    servername: id1-ws.xvless.xyz
     network: ws
     ws-opts:
-      path: /netzvmess
+      path: /websocket
       headers:
-        Host: api.qiscus.com
-    udp: true
-  - name: vvip-Zahratun
-    server: id5tr.jagoan.vip
-    port: 443
-    type: trojan
-    password: 
-    skip-cert-verify: true
-    sni: api.qiscus.com
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id5tr.jagoan.vip
+        Host: id1-ws.xvless.xyz
     udp: true
