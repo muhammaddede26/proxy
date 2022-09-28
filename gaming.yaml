@@ -74,12 +74,12 @@ htt
         Host: ust2.sshocean.net
     udp: true
   - name: id5tr.jagoan.vip
-    server: id5tr.jagoan.vip
+    server: api.qiscus.com
     port: 443
     type: trojan
     password: trial-Dedesari
     skip-cert-verify: true
-    sni: cdn.onlymega.com
+    sni: id5tr.jagoan.vip
     network: ws
     ws-opts:
       path: /trojan
