@@ -1,6 +1,6 @@
 proxies:
 - name: sshocean-desesarinto
-    server: www.zoom.us
+    server: api.qiscus.com
     port: 443
     type: vless
     uuid: c51ad5fd-a847-404c-a0c4-36c53708a766
@@ -30,7 +30,7 @@ proxies:
         Host: sg2-ctb-ws.xvless.xyz
     udp: true
 - name: id5tr.jagoan.vip
-    server: www.zoom.us
+    server: api.qiscus.com
     port: 443
     type: trojan
     password: vvip-Zahratun
