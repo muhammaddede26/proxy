@@ -1,16 +1,13 @@
 proxies:
-  - name: sshocean-vhbnnnnbbb
+  - name: vvip-Zahratun
     server: api.qiscus.com
     port: 443
-    type: vless
-    uuid: 6d220048-4e1e-4d94-aaef-b272508920f9
-    cipher: auto
-    tls: true
+    type: trojan
     skip-cert-verify: true
-    servername: id1-ws.xvless.xyz
+    sni: id5tr.jagoan.vip
     network: ws
     ws-opts:
-      path: /websocket
+      path: /trojan
       headers:
-        Host: id1-ws.xvless.xyz
+        Host: id5tr.jagoan.vip
     udp: true
