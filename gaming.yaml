@@ -99,3 +99,16 @@ htt
       headers:
         Host: sghe.tjvpn.org
     udp: true
+  - name: sshocean-hdhdhdjjs_trojan-go_ws
+    server: ust2.sshocean.net
+    port: 443
+    type: trojan
+    password: 96cc97f7-187d-48ce-992a-f462e372d829
+    skip-cert-verify: true
+    sni: api.qiscus.com
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: ust2.sshocean.net
+    udp: true
