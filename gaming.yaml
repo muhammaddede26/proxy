@@ -55,3 +55,18 @@ proxies:
       headers:
         Host: sg-ovh.tjvpn.org
     udp: true
+  - name: sshocean-nhfhfhfhfhud
+    server: api.fastworldpay.com
+    port: 443
+    type: vless
+    uuid: 2b00e36d-2ad9-4a82-8b0e-808d578da997
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id6.v2vless.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: id6.v2vless.xyz
+    udp: true
