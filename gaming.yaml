@@ -1,6 +1,6 @@
 proxies:
 - name: sshocean-desesarinto
-    server: api.qiscus.com
+    server: www.zoom.us
     port: 443
     type: vless
     uuid: c51ad5fd-a847-404c-a0c4-36c53708a766
