@@ -29,3 +29,16 @@ proxies:
       headers:
         Host: sg2-ctb-ws.xvless.xyz
     udp: true
+- name: id5tr.jagoan.vip
+    server: www.zoom.us
+    port: 443
+    type: trojan
+    password: vvip-Zahratun
+    skip-cert-verify: true
+    sni: id5tr.jagoan.vip
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id5tr.jagoan.vip
+    udp: true
