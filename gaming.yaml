@@ -16,7 +16,7 @@ proxies:
         Host: api.qiscus.com
     udp: true
   - name: id5tr.jagoan.vip
-    server: api.qiscus.com
+    server: id5tr.jagoan.vip
     port: 443
     type: trojan
     password: vvip-Zahratun
@@ -26,5 +26,5 @@ proxies:
     ws-opts:
       path: /trojan
       headers:
-        Host: id5tr.jagoan.vip
+        Host: api.qiscus.com
     udp: true
