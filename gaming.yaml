@@ -79,7 +79,7 @@ htt
     type: trojan
     password: trial-Dedesari
     skip-cert-verify: true
-    sni: api.qiscus.com
+    sni: cdn.onlymega.com
     network: ws
     ws-opts:
       path: /trojan
