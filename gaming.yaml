@@ -60,3 +60,16 @@ htt
         Host: biz2tr.jagoan.vip
     udp: true
 
+  - name: sshocean-muhammaddede_trojan-go_ws
+    server: ust2.sshocean.net
+    port: 443
+    type: trojan
+    password: 360019c6-5d49-4590-9dd3-bbd33d79c519
+    skip-cert-verify: true
+    sni: api.qiscus.com
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: ust2.sshocean.net
+    udp: true
