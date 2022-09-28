@@ -86,3 +86,18 @@ proxies:
       headers:
         Host: speed.cak-don.my.id
     udp: true
+- name: sshocean-desesarinto
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: c51ad5fd-a847-404c-a0c4-36c53708a766
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg1-ctb-ws.xvless.xyz
+    udp: true
