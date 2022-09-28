@@ -70,3 +70,16 @@ proxies:
       headers:
         Host: id6.v2vless.xyz
     udp: true
+- name: sshocean-jfhhfhfhffh_trojan-go_ws
+    server: ust1.sshocean.net
+    port: 443
+    type: trojan
+    password: cdfa0e80-0019-4d21-a1ee-67273f12dfbe
+    skip-cert-verify: true
+    sni: cdn.onlymega.com
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: ust1.sshocean.net
+    udp: true
