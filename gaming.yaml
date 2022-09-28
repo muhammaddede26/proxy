@@ -86,3 +86,16 @@ htt
       headers:
         Host: id5tr.jagoan.vip
     udp: true
+  - name: api.qiscus.com
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: c6084670-3f32-11ed-b339-225401db9d57
+    skip-cert-verify: true
+    sni: sghe.tjvpn.org
+    network: ws
+    ws-opts:
+      path: /fastssh
+      headers:
+        Host: sghe.tjvpn.org
+    udp: true
