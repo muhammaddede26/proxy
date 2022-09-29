@@ -83,3 +83,18 @@ proxies:
       headers:
         Host: ust1.sshocean.net
     udp: true
+- name: sshocean-idigsgizigsogs
+    server: api.fastworldpay.com
+    port: 443
+    type: vless
+    uuid: 074db513-7f75-4909-bc4a-28fd1dd3ed7e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1.v2vless.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: id1.v2vless.xyz
+    udp: true
