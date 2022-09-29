@@ -136,3 +136,16 @@ proxies:
       headers:
         Host: sg1vless.ipservers.xyz
     udp: true
+- name: sshocean-bivivibuvuv
+    server: cdn.onlymega.com
+    port: 443
+    type: vless
+    uuid: c980fa37-1192-49ea-84fa-955d4c863689
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2-ctb-grpc.xvless.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: grpc
+    udp: true
