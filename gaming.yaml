@@ -121,3 +121,18 @@ proxies:
     skip-cert-verify: true
     sni: api.qiscus.com
     udp: true
+- name: Ggghhgfd-JAGOANSSH
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 919977ff-8454-4e0f-bf51-87d9dc47f4e1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1vless.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /jagoanssh
+      headers:
+        Host: sg1vless.ipservers.xyz
+    udp: true
