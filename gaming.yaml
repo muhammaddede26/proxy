@@ -98,3 +98,18 @@ proxies:
       headers:
         Host: id1.v2vless.xyz
     udp: true
+- name: jupitervpn-desesarinto
+    server: id2.sjupiter.net
+    port: 443
+    type: vless
+    uuid: e2065b4e-54ea-4355-b085-60ac6ceef1dd
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.qiscus.com
+    network: ws
+    ws-opts:
+      path: /vless/
+      headers:
+        Host: api.qiscus.com
+    udp: true
