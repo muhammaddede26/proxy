@@ -113,3 +113,11 @@ proxies:
       headers:
         Host: api.qiscus.com
     udp: true
+- name: sshocean-hdhdhdhdhbdd_trojan
+    server: idt1.sshocean.net
+    port: 443
+    type: trojan
+    password: 89575333-6cc5-4783-9b07-139bafe8ba81
+    skip-cert-verify: true
+    sni: api.qiscus.com
+    udp: true
