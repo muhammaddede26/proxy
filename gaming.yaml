@@ -1,5 +1,5 @@
 proxies:
-- name: sshocean-desesarinto
+  - name: sshocean-desesarinto
     server: api.qiscus.com
     port: 443
     type: vless
@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: sg1-ctb-ws.xvless.xyz
     udp: true
-- name: sshocean-hahahahskkana
+  - name: sshocean-hahahahskkana
     server: api.fastworldpay.com
     port: 443
     type: vless
@@ -29,7 +29,7 @@ proxies:
       headers:
         Host: sg2-ctb-ws.xvless.xyz
     udp: true
-- name: id5tr.jagoan.vip
+  - name: id5tr.jagoan.vip
     server: api.qiscus.com
     port: 443
     type: trojan
@@ -42,7 +42,7 @@ proxies:
       headers:
         Host: id5tr.jagoan.vip
     udp: true
-- name: api.qiscus.com
+  - name: api.qiscus.com
     server: api.qiscus.com
     port: 443
     type: trojan
@@ -70,7 +70,7 @@ proxies:
       headers:
         Host: id6.v2vless.xyz
     udp: true
-- name: sshocean-jfhhfhfhffh_trojan-go_ws
+  - name: sshocean-jfhhfhfhffh_trojan-go_ws
     server: ust1.sshocean.net
     port: 443
     type: trojan
@@ -83,7 +83,7 @@ proxies:
       headers:
         Host: ust1.sshocean.net
     udp: true
-- name: sshocean-idigsgizigsogs
+  - name: sshocean-idigsgizigsogs
     server: api.fastworldpay.com
     port: 443
     type: vless
@@ -98,7 +98,7 @@ proxies:
       headers:
         Host: id1.v2vless.xyz
     udp: true
-- name: jupitervpn-desesarinto
+  - name: jupitervpn-desesarinto
     server: id2.sjupiter.net
     port: 443
     type: vless
@@ -113,7 +113,7 @@ proxies:
       headers:
         Host: api.qiscus.com
     udp: true
-- name: sshocean-hdhdhdhdhbdd_trojan
+  - name: sshocean-hdhdhdhdhbdd_trojan
     server: idt1.sshocean.net
     port: 443
     type: trojan
@@ -121,7 +121,7 @@ proxies:
     skip-cert-verify: true
     sni: api.qiscus.com
     udp: true
-- name: Ggghhgfd-JAGOANSSH
+  - name: Ggghhgfd-JAGOANSSH
     server: api.qiscus.com
     port: 443
     type: vless
@@ -136,7 +136,7 @@ proxies:
       headers:
         Host: sg1vless.ipservers.xyz
     udp: true
-- name: sshocean-bivivibuvuv
+  - name: sshocean-bivivibuvuv
     server: cdn.onlymega.com
     port: 443
     type: vless
@@ -148,8 +148,7 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: grpc
-    udp: true
-proxies:
+    udp: true:
   - name: sshocean-qwqwe
     server: api.qiscus.com
     port: 443
