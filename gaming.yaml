@@ -104,3 +104,19 @@ proxies:
       headers:
         Host: sg2vless.ipservers.xyz
     udp: true
+- name: Januari-JAGOANSSH
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 47b7d828-5415-4a05-b47c-1e251d82901d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: us2.vmes.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: us2.vmes.xyz
+    udp: true
