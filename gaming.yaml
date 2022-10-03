@@ -120,16 +120,19 @@ proxies:
       headers:
         Host: us2.vmes.xyz
     udp: true
-- name: jagoanssh-Hahahahah
+- name: Tututu-JAGOANSSH
     server: api.qiscus.com
     port: 443
-    type: trojan
-    password: jagoanssh-Hahahahah
+    type: vmess
+    uuid: a804ab2f-d24f-496e-8e0a-c8e1836e6f6d
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg2go.ipservers.xyz
+    servername: sg8.vmes.xyz
     network: ws
     ws-opts:
-      path: /trojan
+      path: /JAGOANSSH/
       headers:
-        Host: sg2go.ipservers.xyz
+        Host: sg8.vmes.xyz
     udp: true
