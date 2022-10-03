@@ -120,3 +120,16 @@ proxies:
       headers:
         Host: us2.vmes.xyz
     udp: true
+- name: jagoanssh-Hahahahah
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: jagoanssh-Hahahahah
+    skip-cert-verify: true
+    sni: sg2go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg2go.ipservers.xyz
+    udp: true
