@@ -182,3 +182,18 @@ proxies:
       headers:
         Host: id1-ws.xvless.xyz
     udp: true
+- name: sshocean-muhammaddede
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: a3d1cb8a-5ab9-4d46-9bc9-a07e33c0ce95
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id1-ws.xvless.xyz
+    udp: true
