@@ -168,3 +168,33 @@ proxies:
       headers:
         Host: sg8.vmes.xyz
     udp: true
+- name: sshocean-polisiqu
+    server: sg1-ctb-ws.xvless.xyz
+    port: 443
+    type: vless
+    uuid: 99a113b7-c947-499e-baf2-499024f91151
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.qiscus.com
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg1-ctb-ws.xvless.xyz
+    udp: true
+- name: sshocean-polisiqu
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 99a113b7-c947-499e-baf2-499024f91151
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg1-ctb-ws.xvless.xyz
+    udp: true
