@@ -152,3 +152,19 @@ proxies:
       headers:
         Host: id1-ws.xvless.xyz
     udp: true
+- name: Polpop-JAGOANSSH
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 5bb4c420-ea6a-4b6f-9439-14f5f53b88a1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg8.vmes.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: sg8.vmes.xyz
+    udp: true
