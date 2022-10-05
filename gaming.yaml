@@ -198,3 +198,93 @@ proxies:
       headers:
         Host: sg1-ctb-ws.xvless.xyz
     udp: true
+  - name: sshocean-qwqwe
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 35f203f0-f254-4a9a-9479-d63081f8a61b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg3-ws.xvless.xyz
+    udp: true
+  - name: sshocean-satu5
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: d3e90e60-cd06-4952-830a-d3a9cae44e71
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg2-ws.xvless.xyz
+    udp: true
+  - name: sshocean-123244qw
+    server: cdn.onlymega.com
+    port: 443
+    type: vless
+    uuid: f0f41620-739c-425d-9389-c96e820988f4
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg1-ws.xvless.xyz
+    udp: true
+  - name: sshocean-123244qw 2
+    server: api.fastworldpay.com
+    port: 443
+    type: vless
+    uuid: 9f1416a8-a143-4ff0-abfe-556503711498
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgovh1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sgovh1-ws.xvless.xyz
+    udp: true
+  - name: sshocean-123244q
+    server: api.fastworldpay.com
+    port: 443
+    type: vless
+    uuid: 416ba414-eba0-415e-beda-56126fa12e80
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2-ctb-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg2-ctb-ws.xvless.xyz
+    udp: true
+  - name: sshocean-rootqqw
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 3652f6d2-c494-4406-be58-84210d07fcad
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1-ctb-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg1-ctb-ws.xvless.xyz
+    udp: true
