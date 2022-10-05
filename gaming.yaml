@@ -1,4 +1,4 @@
-
+proxies:
   - name: sshocean-desesarinto
     server: api.qiscus.com
     port: 443
