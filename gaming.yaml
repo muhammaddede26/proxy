@@ -14,7 +14,7 @@ proxies:
       headers:
         Host: id1-ws.xvless.xyz
     udp: true
-- name: api.qiscus.com
+  - name: api.qiscus.com
     server: api.qiscus.com
     port: 443
     type: trojan
@@ -26,4 +26,19 @@ proxies:
       path: /howdy
       headers:
         Host: idtj-ikd.bonds.id
+    udp: true
+  - name: id-2.vless.co
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-2.vless.co
+    network: ws
+    ws-opts:
+      path: /fastssh/pokook/633cd52a4b782/
+      headers:
+        Host: id-2.vless.co
     udp: true
