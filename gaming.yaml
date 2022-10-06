@@ -102,3 +102,18 @@ proxies:
       headers:
         Host: id-2.vless.co
     udp: true
+  - name: Huhuhu
+    server: api.qiscus.com
+    port: 8443
+    type: vless
+    uuid: 740ab067-1bf3-47eb-b128-0cc4362da71a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg.vless2.xservs.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sg.vless2.xservs.xyz
+    udp: true
