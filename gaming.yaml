@@ -163,3 +163,18 @@ proxies:
       headers:
         Host: sg1.vless.co
     udp: true
+  - name: opentunnel.net-dedesari228
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 4f17e173-4af9-5041-9662-f6c27e0decfd
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgx-3.openv2ray.com
+    network: ws
+    ws-opts:
+      path: /opentunnel?user=opentunnel.net-dedesari228
+      headers:
+        Host: sgx-3.openv2ray.com
+    udp: true
