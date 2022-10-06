@@ -29,16 +29,3 @@ proxies:
       headers:
         Host: sg8-ws.xvless.xyz
     udp: true
-  - name: mainssh.com
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 0c5c6f4d-abb2-4ce0-9f22-369aaa0de66e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sglgrpc.mainssh.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: vlessgrpc
-    udp: true
