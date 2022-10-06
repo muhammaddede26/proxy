@@ -165,16 +165,3 @@ proxies:
       headers:
         Host: speed.cak-don.my.id
     udp: true
-- name: vvip-Zahratun
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: vvip-Zahratun
-    skip-cert-verify: true
-    sni: id5tr.jagoan.vip
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id5tr.jagoan.vip
-    udp: true
