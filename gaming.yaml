@@ -117,3 +117,19 @@ proxies:
       headers:
         Host: sg.vless2.xservs.xyz
     udp: true
+  - name: trial-Muhammaddede1
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: d3b8594e-1f7d-44db-ac69-38e2ebe71a62
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: biz2ray.jagoan.vip
+    network: ws
+    ws-opts:
+      path: /vvip
+      headers:
+        Host: biz2ray.jagoan.vip
+    udp: true
