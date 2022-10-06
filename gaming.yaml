@@ -117,22 +117,6 @@ proxies:
       headers:
         Host: sg.vless2.xservs.xyz
     udp: true
-  - name: trial-Muhammaddede1
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: d3b8594e-1f7d-44db-ac69-38e2ebe71a62
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: biz2ray.jagoan.vip
-    network: ws
-    ws-opts:
-      path: /vvip
-      headers:
-        Host: biz2ray.jagoan.vip
-    udp: true
   - name: sshocean-desesarinto
     server: api.qiscus.com
     port: 443
@@ -177,19 +161,4 @@ proxies:
       path: /opentunnel?user=opentunnel.net-dedesari228
       headers:
         Host: sgx-3.openv2ray.com
-    udp: true
-- name: tes
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: c4a94ccf-e197-4a62-a792-a8d7a175afc9
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: atha.khentocoer.xyz
-    network: ws
-    ws-opts:
-      path: /netzvless
-      headers:
-        Host: atha.khentocoer.xyz
     udp: true
