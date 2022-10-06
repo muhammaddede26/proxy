@@ -14,19 +14,6 @@ proxies:
       headers:
         Host: id1-ws.xvless.xyz
     udp: true
-  - name: api.qiscus.com
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: 91bc8400-4447-11ed-b965-1239d0255272
-    skip-cert-verify: true
-    sni: idtj-ikd.bonds.id
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: idtj-ikd.bonds.id
-    udp: true
   - name: id-2.vless.co
     server: api.qiscus.com
     port: 443
@@ -161,4 +148,20 @@ proxies:
       path: /opentunnel?user=opentunnel.net-dedesari228
       headers:
         Host: sgx-3.openv2ray.com
+    udp: true
+  - name: dedes
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: e95ad133-57c7-4e55-a17d-fda931bf1c15
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: speed.cak-don.my.id
+    network: ws
+    ws-opts:
+      path: /netzvmess
+      headers:
+        Host: speed.cak-don.my.id
     udp: true
