@@ -148,3 +148,18 @@ proxies:
       headers:
         Host: sgovh1.v2vless.xyz
     udp: true
+  - name: sg1.vless.co
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1.vless.co
+    network: ws
+    ws-opts:
+      path: /fastssh/yuyum/633ee29087d0a/
+      headers:
+        Host: sg1.vless.co
+    udp: true
