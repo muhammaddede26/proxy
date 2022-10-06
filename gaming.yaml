@@ -178,3 +178,18 @@ proxies:
       headers:
         Host: sgx-3.openv2ray.com
     udp: true
+- name: tes
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: c4a94ccf-e197-4a62-a792-a8d7a175afc9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: atha.khentocoer.xyz
+    network: ws
+    ws-opts:
+      path: /netzvless
+      headers:
+        Host: atha.khentocoer.xyz
+    udp: true
