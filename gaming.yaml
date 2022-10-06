@@ -14,3 +14,18 @@ proxies:
       headers:
         Host: sgcvless.ipservers.xyz
     udp: true
+  - name: sshocean-desesarinto
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 4c0ae89a-3407-4bc4-b2a8-4c2d9562298b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg8-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: sg8-ws.xvless.xyz
+    udp: true
