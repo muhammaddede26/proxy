@@ -42,7 +42,7 @@ proxies:
       headers:
         Host: id-2.vless.co
     udp: true
-- name: sshocean-dedesarinem
+  - name: sshocean-dedesarinem
     server: api.qiscus.com
     port: 443
     type: vless
