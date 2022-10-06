@@ -133,3 +133,18 @@ proxies:
       headers:
         Host: biz2ray.jagoan.vip
     udp: true
+  - name: sshocean-desesarinto
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 92d8cef4-b296-4b9f-a1e9-eeaf9e53976d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgovh1.v2vless.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sgovh1.v2vless.xyz
+    udp: true
