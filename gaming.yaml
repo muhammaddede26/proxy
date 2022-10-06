@@ -149,3 +149,18 @@ proxies:
       headers:
         Host: sgx-3.openv2ray.com
     udp: true
+- name: Ahahahahah-JAGOANSSH
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 4c06fbdc-4c60-40e1-8037-bddafeb8bbfb
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgcvless.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /jagoanssh
+      headers:
+        Host: sgcvless.ipservers.xyz
+    udp: true
