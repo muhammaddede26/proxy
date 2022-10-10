@@ -59,3 +59,11 @@ proxies:
       headers:
         Host: sgcvless.ipservers.xyz
     udp: true
+  - name: opentunnel.net-dedesarinto
+    server: idt-1.opensvr.net
+    port: 443
+    type: trojan
+    password: opentunnel.net-dedesarinto
+    skip-cert-verify: true
+    sni: api.qiscus.com
+    udp: true
