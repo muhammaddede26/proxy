@@ -59,3 +59,16 @@ proxies:
       headers:
         Host: sgcvless.ipservers.xyz
     udp: true
+  - name: sgcgo.ipservers.xyz
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: jagoanssh-Dedesarintoqu
+    skip-cert-verify: true
+    sni: sgcgo.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sgcgo.ipservers.xyz
+    udp: true
