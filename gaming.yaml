@@ -72,3 +72,18 @@ proxies:
       headers:
         Host: sgcgo.ipservers.xyz
     udp: true
+  - name: mainssh-Dedesarintoo
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: f4c99adf-aceb-45e6-98ff-8e673013b084
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: uslws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: uslws.mainssh.xyz
+    udp: true
