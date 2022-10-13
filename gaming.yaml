@@ -1,19 +1,4 @@
 proxies:
-  - name: Huhuhuii-JAGOANSSH
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 627f8549-99d0-45dd-a48f-ef2203d0fbb7
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgcvless.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /jagoanssh
-      headers:
-        Host: sgcvless.ipservers.xyz
-    udp: true
   - name: dedes
     server: api.qiscus.com
     port: 443
@@ -42,4 +27,19 @@ proxies:
       path: /trojan
       headers:
         Host: id5tr.jagoan.vip
+    udp: true
+  - name: sshocean-ckckkckc
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 0fc49f76-abb0-4d1c-9c6d-976d3e4f10c5
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id1-ws.xvless.xyz
     udp: true
