@@ -14,19 +14,6 @@ proxies:
       headers:
         Host: sgcvless.ipservers.xyz
     udp: true
-  - name: sgcgo.ipservers.xyz
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: jagoanssh-Dedesarintoqu
-    skip-cert-verify: true
-    sni: sgcgo.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sgcgo.ipservers.xyz
-    udp: true
   - name: dedes
     server: api.qiscus.com
     port: 443
@@ -42,4 +29,17 @@ proxies:
       path: /netzvmess
       headers:
         Host: speed.cak-don.my.id
+    udp: true
+  - name: id5tr.jagoan.vip
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: vvip-Zahratun
+    skip-cert-verify: true
+    sni: id5tr.jagoan.vip
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id5tr.jagoan.vip
     udp: true
