@@ -28,18 +28,18 @@ proxies:
       headers:
         Host: id5tr.jagoan.vip
     udp: true
-  - name: sshocean-ckckkckc
+  - name: Vggvvvvv-JAGOANSSH
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 0fc49f76-abb0-4d1c-9c6d-976d3e4f10c5
+    uuid: 35f3f88d-9339-49c1-9c15-84ee170386a0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id1-ws.xvless.xyz
+    servername: sg1vless.ipservers.xyz
     network: ws
     ws-opts:
-      path: /websocket
+      path: /jagoanssh
       headers:
-        Host: id1-ws.xvless.xyz
+        Host: sg1vless.ipservers.xyz
     udp: true
