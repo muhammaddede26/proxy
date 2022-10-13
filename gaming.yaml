@@ -43,3 +43,19 @@ proxies:
       headers:
         Host: sg1vless.ipservers.xyz
     udp: true
+  - name: Jchjzugzu-JAGOANSSH
+    server: sg7.vmes.xyz
+    port: 443
+    type: vmess
+    uuid: c0f776c9-2bdb-448b-bdce-2cd24fb01361
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.qiscus.com
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: api.qiscus.com
+    udp: true
