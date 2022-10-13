@@ -27,3 +27,19 @@ proxies:
       headers:
         Host: sgcgo.ipservers.xyz
     udp: true
+  - name: dedes
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: e95ad133-57c7-4e55-a17d-fda931bf1c15
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: speed.cak-don.my.id
+    network: ws
+    ws-opts:
+      path: /netzvmess
+      headers:
+        Host: speed.cak-don.my.id
+    udp: true
