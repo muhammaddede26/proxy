@@ -1,49 +1,4 @@
 proxies:
-  - name: Ahahahahah-JAGOANSSH
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 4c06fbdc-4c60-40e1-8037-bddafeb8bbfb
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgcvless.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /jagoanssh
-      headers:
-        Host: sgcvless.ipservers.xyz
-    udp: true
-  - name: sshocean-desesarinto
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 4c0ae89a-3407-4bc4-b2a8-4c2d9562298b
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg8-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sg8-ws.xvless.xyz
-    udp: true
-  - name: sshocean-opokkk
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 2c80c4e9-6402-4063-b444-876ee6a5e11c
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id1-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: id1-ws.xvless.xyz
-    udp: true
   - name: Huhuhuii-JAGOANSSH
     server: api.qiscus.com
     port: 443
@@ -71,19 +26,4 @@ proxies:
       path: /trojan
       headers:
         Host: sgcgo.ipservers.xyz
-    udp: true
-  - name: mainssh-Dedesarintoo
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: f4c99adf-aceb-45e6-98ff-8e673013b084
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: uslws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: uslws.mainssh.xyz
     udp: true
