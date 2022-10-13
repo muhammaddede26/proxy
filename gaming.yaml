@@ -87,18 +87,3 @@ proxies:
       headers:
         Host: uslws.mainssh.xyz
     udp: true
-  - name: opentunnel.net-sarinto
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 4f17e173-4af9-5041-9662-f6c27e0decfd
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ukx-1.openv2ray.com
-    network: ws
-    ws-opts:
-      path: /opentunnel?user=opentunnel.net-sarinto
-      headers:
-        Host: ukx-1.openv2ray.com
-    udp: true
