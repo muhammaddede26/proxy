@@ -59,3 +59,18 @@ proxies:
       headers:
         Host: api.qiscus.com
     udp: true
+  - name: sshocean-desesarinto
+    server: id1-ws.xvless.xyz
+    port: 443
+    type: vless
+    uuid: dd5c6b10-4f80-4335-95f6-9a9ac8ecc7dd
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: api.qiscus.com
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id1-ws.xvless.xyz
+    udp: true
