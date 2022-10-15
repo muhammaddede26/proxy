@@ -60,17 +60,33 @@ proxies:
         Host: api.qiscus.com
     udp: true
   - name: sshocean-desesarinto
-    server: id1-ws.xvless.xyz
+    server: api.qiscus.com
     port: 443
     type: vless
     uuid: dd5c6b10-4f80-4335-95f6-9a9ac8ecc7dd
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: api.qiscus.com
+    servername: id1-ws.xvless.xyz
     network: ws
     ws-opts:
       path: /websocket
       headers:
         Host: id1-ws.xvless.xyz
+    udp: true
+  - name: mainssh.com
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 1e8d14ea-7efe-46a9-8af1-72a093ce8d45
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgmws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sgmws.mainssh.xyz
     udp: true
