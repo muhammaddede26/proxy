@@ -105,3 +105,18 @@ proxies:
       header:
         Tuan rumah: id1-ws.xvless.xyz
     udp: benar
+  - nama: sshocean-ndnxnnxnxnx
+    server: api.qiscus.com
+    pelabuhan: 443
+    jenis: vless
+    uuid: 92a832f0-4e62-4d03-b6d4-2c12b15336cf
+    sandi: otomatis
+    tls: benar
+    lewati-sert-verifikasi: benar
+    nama server: sg1-ctb-ws.xvless.xyz
+    jaringan: ws
+    ws-opts:
+      jalur: /websocket
+      header:
+        Tuan rumah: sg1-ctb-ws.xvless.xyz
+    udp: benar
