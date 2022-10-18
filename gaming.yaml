@@ -90,3 +90,18 @@ proxies:
       headers:
         Host: sgmws.mainssh.xyz
     udp: true
+  - nama: sshocean-desesarinto1
+    server: api.qiscus.com
+    pelabuhan: 443
+    jenis: vless
+    uuid: bb5d4af2-bea0-4b9a-833a-4fc59f249648
+    sandi: otomatis
+    tls: benar
+    lewati-sert-verifikasi: benar
+    nama server: id1-ws.xvless.xyz
+    jaringan: ws
+    ws-opts:
+      jalur: /websocket
+      header:
+        Tuan rumah: id1-ws.xvless.xyz
+    udp: benar
