@@ -28,65 +28,18 @@ proxies:
       headers:
         Host: id5tr.jagoan.vip
     udp: true
-  - name: Vggvvvvv-JAGOANSSH
+  - name: sshocean-sbbxbxbxhxxh
     server: api.qiscus.com
     port: 443
     type: vless
-    uuid: 35f3f88d-9339-49c1-9c15-84ee170386a0
+    uuid: 04855cad-5e34-4f93-ab31-63cdc0f97305
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg1vless.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /jagoanssh
-      headers:
-        Host: sg1vless.ipservers.xyz
-    udp: true
-  - name: Jchjzugzu-JAGOANSSH
-    server: sg7.vmes.xyz
-    port: 443
-    type: vmess
-    uuid: c0f776c9-2bdb-448b-bdce-2cd24fb01361
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: api.qiscus.com
-    network: ws
-    ws-opts:
-      path: /JAGOANSSH/
-      headers:
-        Host: api.qiscus.com
-    udp: true
-  - name: sshocean-desesarinto
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: dd5c6b10-4f80-4335-95f6-9a9ac8ecc7dd
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id1-ws.xvless.xyz
+    servername: id2-ws.xvless.xyz
     network: ws
     ws-opts:
       path: /websocket
       headers:
-        Host: id1-ws.xvless.xyz
-    udp: true
-  - name: mainssh.com
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: 1e8d14ea-7efe-46a9-8af1-72a093ce8d45
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgmws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sgmws.mainssh.xyz
+        Host: id2-ws.xvless.xyz
     udp: true
