@@ -59,3 +59,18 @@ proxies:
       headers:
         Host: sg3.vmes.xyz
     udp: true
+  - name: mainssh-Bbiviviv
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 8296f926-ff2e-4889-9fe4-e576844de901
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idlws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: idlws.mainssh.xyz
+    udp: true
