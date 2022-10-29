@@ -74,3 +74,18 @@ proxies:
       path: /vmess
       headers:
         Host: sg2mw
+  - name: mainssh-Plokplok
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: c91c02c6-2161-4dd3-9f13-ea13f7783327
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sglws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sglws.mainssh.xyz
+    udp: true
