@@ -28,21 +28,6 @@ proxies:
       headers:
         Host: id5tr.jagoan.vip
     udp: true
-  - name: sshocean-sbbxbxbxhxxh
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 04855cad-5e34-4f93-ab31-63cdc0f97305
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id2-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: id2-ws.xvless.xyz
-    udp: true
   - name: Hdhdhdhdhllll-JAGOANSSH
     server: api.qiscus.com
     port: 443
@@ -73,4 +58,19 @@ proxies:
       path: /vless
       headers:
         Host: idlws.mainssh.xyz
+    udp: true
+  - name: sshocean-dedesarin
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 011e0964-9426-418b-b760-e269f060d7ca
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id1-ws.xvless.xyz
     udp: true
