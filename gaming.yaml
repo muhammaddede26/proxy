@@ -44,21 +44,6 @@ proxies:
       headers:
         Host: sg3.vmes.xyz
     udp: true
-  - name: mainssh-Bbiviviv
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 8296f926-ff2e-4889-9fe4-e576844de901
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: idlws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: idlws.mainssh.xyz
-    udp: true
   - name: sshocean-dedesarin
     server: api.qiscus.com
     port: 443
@@ -74,3 +59,18 @@ proxies:
       headers:
         Host: id1-ws.xvless.xyz
     udp: true
+  - name: mainssh.com
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: ed543b38-674e-42f4-86b2-72677bdbcc70
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2mws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg2mw
