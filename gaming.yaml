@@ -89,3 +89,19 @@ proxies:
       headers:
         Host: sglws.mainssh.xyz
     udp: true
+  - name: mainssh.com
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: 59f5f121-34d8-4be7-b5eb-851fd1f4dc1a
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2mws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg2mws.mainssh.xyz
+    udp: true
