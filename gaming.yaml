@@ -45,3 +45,16 @@ proxies:
       headers:
         Host: sg2mws.mainssh.xyz
     udp: true
+  - name: ustws.mainssh.xyz
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: mainssh-Apaajalah
+    skip-cert-verify: true
+    sni: ustws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: ustws.mainssh.xyz
+    udp: true
