@@ -58,3 +58,18 @@ proxies:
       headers:
         Host: ustws.mainssh.xyz
     udp: true
+  - name: sshocean-bzbzbzbxh
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 89654215-7898-4297-b98a-ae9e1cc8a52e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id6-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id6-ws.xvless.xyz
+    udp: true
