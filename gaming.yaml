@@ -1,19 +1,4 @@
 proxies:
-  - name: mainssh.com
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: ed543b38-674e-42f4-86b2-72677bdbcc70
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2mws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg2mw
   - name: DODK-bulusari
     server: api.qiscus.com
     port: 443
@@ -24,4 +9,17 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: Trojan-GRPC
+    udp: true
+- name: DODK-bulusari
+    server: sg1.dklongtong.xyz
+    port: 443
+    type: trojan
+    password: bulusari
+    skip-cert-verify: true
+    sni: sg1.dklongtong.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg1.dklongtong.xyz
     udp: true
