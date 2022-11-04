@@ -14,62 +14,14 @@ proxies:
       path: /vmess
       headers:
         Host: sg2mw
-  - name: mainssh-Plokplok
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: c91c02c6-2161-4dd3-9f13-ea13f7783327
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sglws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vless
-      headers:
-        Host: sglws.mainssh.xyz
-    udp: true
-  - name: mainssh.com
-    server: api.qiscus.com
-    port: 443
-    type: vmess
-    uuid: 59f5f121-34d8-4be7-b5eb-851fd1f4dc1a
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2mws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg2mws.mainssh.xyz
-    udp: true
-  - name: ustws.mainssh.xyz
+  - name: DODK-bulusari
     server: api.qiscus.com
     port: 443
     type: trojan
-    password: mainssh-Apaajalah
+    password: bulusari
     skip-cert-verify: true
-    sni: ustws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: ustws.mainssh.xyz
-    udp: true
-  - name: sshocean-bzbzbzbxh
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: 89654215-7898-4297-b98a-ae9e1cc8a52e
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id6-ws.xvless.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: id6-ws.xvless.xyz
+    sni: sg1.dklongtong.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: Trojan-GRPC
     udp: true
