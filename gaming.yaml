@@ -38,3 +38,18 @@ proxies:
       headers:
         Host: sg2vless.ipservers.xyz
     udp: true
+  - name: sshocean-yuyuyuyy
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: 62146ff3-17f4-44b3-b90e-3d85de2a1ba1
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id1-ws.xvless.xyz
+    udp: true
