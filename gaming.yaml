@@ -10,7 +10,7 @@ proxies:
     grpc-opts:
       grpc-service-name: Trojan-GRPC
     udp: true
-- name: DODK-bulusari
+  - name: DODK-bulusari
     server: sg1.dklongtong.xyz
     port: 443
     type: trojan
@@ -22,4 +22,19 @@ proxies:
       path: /trojan
       headers:
         Host: sg1.dklongtong.xyz
+    udp: true
+  - name: jagoanssh-Hshhsshh-JAGOANSSH
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: e00d0f3f-d19e-4650-a572-f489da3e016f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2vless.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /jagoanssh
+      headers:
+        Host: sg2vless.ipservers.xyz
     udp: true
