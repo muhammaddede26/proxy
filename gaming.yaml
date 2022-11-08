@@ -53,3 +53,18 @@ proxies:
       headers:
         Host: id1-ws.xvless.xyz
     udp: true
+  - name: jagoanssh-Ueueueueu-JAGOANSSH
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: fe535246-5932-4f85-ba80-287bff469c26
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgcvless.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /jagoanssh
+      headers:
+        Host: sgcvless.ipservers.xyz
+    udp: true
