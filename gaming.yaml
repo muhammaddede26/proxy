@@ -68,3 +68,18 @@ proxies:
       headers:
         Host: sgcvless.ipservers.xyz
     udp: true
+  - name: sshocean-zahrasalsa
+    server: api.qiscus.com
+    port: 443
+    type: vless
+    uuid: b1e56a7a-cc5c-45d7-a733-4b00fb5bad0b
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1-ws.xvless.xyz
+    network: ws
+    ws-opts:
+      path: /websocket
+      headers:
+        Host: id1-ws.xvless.xyz
+    udp: true
