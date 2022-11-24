@@ -23,21 +23,6 @@ proxies:
       headers:
         Host: sg1.dklongtong.xyz
     udp: true
-  - name: jagoanssh-Hshhsshh-JAGOANSSH
-    server: api.qiscus.com
-    port: 443
-    type: vless
-    uuid: e00d0f3f-d19e-4650-a572-f489da3e016f
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2vless.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /jagoanssh
-      headers:
-        Host: sg2vless.ipservers.xyz
-    udp: true
   - name: sshocean-yuyuyuyy
     server: api.qiscus.com
     port: 443
