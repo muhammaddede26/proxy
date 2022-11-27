@@ -68,3 +68,11 @@ proxies:
       headers:
         Host: id1-ws.xvless.xyz
     udp: true
+  - name: sg4tro.ipservers.xyz
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: jagoanssh-Zahrasalsa1
+    skip-cert-verify: true
+    sni: sg4tro.ipservers.xyz
+    udp: true
