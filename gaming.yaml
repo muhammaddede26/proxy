@@ -76,3 +76,16 @@ proxies:
     skip-cert-verify: true
     sni: sg4tro.ipservers.xyz
     udp: true
+  - name: cago.ipservers.xyz
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: jagoanssh-Wkwkkwkw
+    skip-cert-verify: true
+    sni: cago.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: cago.ipservers.xyz
+    udp: true
