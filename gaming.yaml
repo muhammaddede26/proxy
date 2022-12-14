@@ -1,27 +1,18 @@
 proxies:
-  - name: DODK-bulusari
-    server: api.qiscus.com
+  - name: sshocean-dedesari
+    server: id1-ws.xvless.xyz
     port: 443
-    type: trojan
-    password: bulusari
+    type: vless
+    uuid: 03cf327c-b8e7-4582-b359-38bd4baff119
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg1.dklongtong.xyz
-    network: grpc
-    grpc-opts:
-      grpc-service-name: Trojan-GRPC
-    udp: true
-  - name: DODK-bulusari
-    server: sg1.dklongtong.xyz
-    port: 443
-    type: trojan
-    password: bulusari
-    skip-cert-verify: true
-    sni: sg1.dklongtong.xyz
+    servername: api.qisqus.com
     network: ws
     ws-opts:
-      path: /trojan
+      path: /websocket
       headers:
-        Host: sg1.dklongtong.xyz
+        Host: id1-ws.xvless.xyz
     udp: true
   - name: sshocean-yuyuyuyy
     server: api.qiscus.com
@@ -68,24 +59,4 @@ proxies:
       headers:
         Host: id1-ws.xvless.xyz
     udp: true
-  - name: sg4tro.ipservers.xyz
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: jagoanssh-Zahrasalsa1
-    skip-cert-verify: true
-    sni: sg4tro.ipservers.xyz
-    udp: true
-  - name: cago.ipservers.xyz
-    server: api.qiscus.com
-    port: 443
-    type: trojan
-    password: jagoanssh-Wkwkkwkw
-    skip-cert-verify: true
-    sni: cago.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: cago.ipservers.xyz
-    udp: true
+  
