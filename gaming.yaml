@@ -1,6 +1,6 @@
 proxies:
   - name: sshocean-dedesari
-    server: id1-ws.xvless.xyz
+    server: api.qiscus.com
     port: 443
     type: vless
     uuid: 03cf327c-b8e7-4582-b359-38bd4baff119
@@ -59,16 +59,19 @@ proxies:
       headers:
         Host: id1-ws.xvless.xyz
     udp: true
-  - name: sgtws.mainssh.xyz
+  - name: mainssh.com
     server: api.qiscus.com
     port: 443
-    type: trojan
-    password: mainssh-Dedesari
+    type: vmess
+    uuid: f45999d2-3f27-4915-8b4f-ca96ba9b45d6
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
+    servername: idmws.mainssh.xyz
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vmess
       headers:
-        Host: sgtws.mainssh.xyz
+        Host: idmws.mainssh.xyz
     udp: true
