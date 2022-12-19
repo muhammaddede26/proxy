@@ -1,18 +1,14 @@
 proxies:
-  - name: sshocean-dedesari
+  - name: sshocean-hyeggeg_Trojan_gRPC
     server: api.qiscus.com
     port: 443
-    type: vless
-    uuid: 03cf327c-b8e7-4582-b359-38bd4baff119
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 7f203b77-6209-42e0-8d54-6b249721b531
     skip-cert-verify: true
-    servername: api.qisqus.com
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: id1-ws.xvless.xyz
+    sni: api.qisqus.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: grpc
     udp: true
   - name: sshocean-yuyuyuyy
     server: api.qiscus.com
