@@ -71,3 +71,19 @@ proxies:
       headers:
         Host: idmws.mainssh.xyz
     udp: true
+  - name: trial-Muhammaddede
+    server: api.qiscus.com
+    port: 443
+    type: vmess
+    uuid: fefe90e0-c813-4ca5-9c5b-6df8c956901f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: biz2ray.jagoan.vip
+    network: ws
+    ws-opts:
+      path: /vvip
+      headers:
+        Host: biz2ray.jagoan.vip
+    udp: true
