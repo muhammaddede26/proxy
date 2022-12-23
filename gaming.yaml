@@ -87,3 +87,16 @@ proxies:
       headers:
         Host: biz2ray.jagoan.vip
     udp: true
+- name: sgtws.mainssh.xyz
+    server: api.qiscus.com
+    port: 443
+    type: trojan
+    password: mainssh-Hahahahaplak
+    skip-cert-verify: true
+    sni: sgtws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sgtws.mainssh.xyz
+    udp: true
