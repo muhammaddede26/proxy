@@ -1,19 +1,18 @@
 proxies:
-  - name: mainssh.com
+  - name: mainssh-Dedesari11
     server: api.qiscus.com
     port: 443
-    type: vmess
-    uuid: 1cef4862-e40d-4184-95af-e94425a61757
-    alterId: 0
+    type: vless
+    uuid: 02b1166e-3677-40a4-ba82-a9d277550c7e
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: idmws.mainssh.xyz
+    servername: sglws.mainssh.xyz
     network: ws
     ws-opts:
-      path: /vmess
+      path: /vless
       headers:
-        Host: idmws.mainssh.xyz
+        Host: sglws.mainssh.xyz
     udp: true
   - name: sshocean-zahrasalsa
     server: api.qiscus.com
